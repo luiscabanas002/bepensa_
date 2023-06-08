@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:padding="12dp">
+
+    <androidx.cardview.widget.CardView android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        android:background="@android:color/white"
+        card_view:cardBackgroundColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="título"
+                android:layout_centerHorizontal="true"
+                android:textSize="32dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"/>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"
+                android:layout_below="@+id/title"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="0dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/divider"
+                android:layout_above="@+id/buttonCerrar"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/buttonCerrar"
+                android:textColor="#fff"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/btn_rounded"
+                android:layout_margin="6dp"
+                android:text="Cerrar"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

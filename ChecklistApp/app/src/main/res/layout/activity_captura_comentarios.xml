@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_fondo_naranja"
+    android:id="@+id/relativeLayoutFondo">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro TOC"
+        android:textStyle="bold"
+        android:textColor="@color/color_texos"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/relativeLayoutNext">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="4dp"
+            android:background="@android:color/white"
+            card_view:cardBackgroundColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:layout_above="@+id/divisor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="horizontal"
+                android:background="@drawable/ic_observaste">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_comentarios"
+                    android:layout_margin="8dp"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTextObservaciones"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:hint="Observaciones"
+                        android:textColor="@android:color/black"
+                        android:imeOptions="actionDone"
+                        android:gravity="top|left"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:layout_toLeftOf="@+id/buttonMicrofonoObservaciones"/>
+
+                    <ImageView
+                        android:id="@+id/buttonMicrofonoObservaciones"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_micro_naranja"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/divisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="4dp"
+            android:background="@android:color/white"
+            card_view:cardBackgroundColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:layout_below="@+id/divisor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="horizontal"
+                android:background="@drawable/ic_hacer">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_comentarios"
+                    android:layout_margin="8dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTextAcciones"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:hint="Acciones a tomar"
+                        android:textColor="@android:color/black"
+                        android:imeOptions="actionDone"
+                        android:gravity="top|left"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:layout_toLeftOf="@+id/buttonMicrofonoAcciones"/>
+
+
+                    <ImageView
+                        android:id="@+id/buttonMicrofonoAcciones"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_micro_naranja"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/ButtonRegresar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_left"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/ButtonSiguiente"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_right"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

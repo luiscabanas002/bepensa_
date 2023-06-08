@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_fondo_naranja"
+    android:id="@+id/relativeLayoutFondo">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro TOC"
+        android:textStyle="bold"
+        android:textColor="@color/color_texos"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/relativeLayoutNext">
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:id="@+id/linearFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_fecha"
+                    android:layout_marginLeft="4dp"/>
+
+                <EditText
+                    android:id="@+id/editTextFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:hint="-Seleccione una fecha-"
+                    android:textColor="@android:color/black"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:text="16/05/2018"
+                    android:background="@drawable/edt_rounded"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_sucursal"
+                    android:layout_marginLeft="4dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTextArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_toLeftOf="@+id/buttonMicrofonoArea"
+                        android:background="@drawable/edt_rounded"
+                        android:drawableRight="@drawable/ic_chevron_down"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:hint="-Seleccione la planta-"
+                        android:padding="8dp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black" />
+
+                    <ImageView
+                        android:id="@+id/buttonMicrofonoArea"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_microfono_respuestas"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="8dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_maquinaria_eq"
+                    android:layout_marginLeft="4dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTextMaquina"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_toLeftOf="@+id/buttonMicrofono"
+                        android:background="@drawable/edt_rounded"
+                        android:hint="Maquinaria y Equipo"
+                        android:padding="8dp"
+                        android:textColor="@android:color/black" />
+
+                    <ImageView
+                        android:id="@+id/buttonMicrofono"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_microfono_respuestas"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="8dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="4dp"
+            android:background="@android:color/white"
+            card_view:cardBackgroundColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:id="@+id/linearArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Área de observación"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/linearFecha"
+                    android:layout_gravity="center"
+                    android:scrollbars="horizontal"
+                    tools:listitem="@layout/row_area"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="4dp"
+            android:background="@android:color/white"
+            card_view:cardBackgroundColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:id="@+id/linearActoInseguro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/textViewNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comportamiento"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewActoInseguro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearFecha"
+                    android:layout_gravity="center"
+                    android:scrollbars="vertical"
+                    tools:listitem="@layout/row_factor"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/ButtonRegresar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_left"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/ButtonSiguiente"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_right"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

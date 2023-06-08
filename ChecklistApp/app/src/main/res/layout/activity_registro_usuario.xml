@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/ic_login">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_margin="24dp">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_left"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Registro"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@+id/imageBack"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginBottom="56dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="4dp"
+            android:background="@android:color/white"
+            card_view:cardBackgroundColor="@android:color/white"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutCodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextCodigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="Código"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextNombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="Nombre"
+                        android:inputType="textCapCharacters"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextApellido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="Apellidos"
+                        android:inputType="textCapCharacters"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutDivision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextDivision"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione la División-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutProceso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextProceso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione el Proceso-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutSubProceso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextSubProceso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione el SubProceso-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutCompania"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/editTextCompania"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="Compañía"
+                        android:inputType="text"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutSucursal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextSucursal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione la Sucursal-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutPuesto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextPuesto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione el Puesto-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutPais"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black">
+
+                    <EditText
+                        android:id="@+id/editTextPais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione el País-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutSubSubProceso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/editTextSubSubProceso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione el Sub SubProceso-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutRegion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/editTextRegion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione la Región-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutMenuEjecutivo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/black"
+                    android:foregroundTint="@android:color/black"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/editTextMenuEjecutivo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:hint="-Seleccione el Menú Ejecutivo-"
+                        android:inputType="number"
+                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black"
+                        android:enabled="true"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/ic_chevron_down"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/buttonGuardar"
+                        android:textColor="#fff"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:background="@drawable/btn_rounded"
+                        android:layout_marginTop="16dp"
+                        android:text="Guardar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

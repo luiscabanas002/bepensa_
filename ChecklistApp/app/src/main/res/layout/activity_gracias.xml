@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_salir_naranja"
+    android:id="@+id/relativeLayoutFondo">
+
+
+    <androidx.cardview.widget.CardView android:id="@+id/card_view"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardElevation="4dp"
+        android:background="@android:color/white"
+        card_view:cardBackgroundColor="@android:color/white"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_salir"
+                android:layout_margin="12dp"/>
+
+            <TextView
+                android:id="@+id/textViewContador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="!Ya terminaste!"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gracias por hacer de Bepensa un lugar más seguro para trabajar."
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+
+                android:layout_below="@+id/icon"/>
+
+            <Button
+                android:id="@+id/buttonSalir"
+                android:textColor="#fff"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/btn_rounded"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="SALIR"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

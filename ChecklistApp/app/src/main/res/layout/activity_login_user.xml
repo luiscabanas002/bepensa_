@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_login_icon">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/color_texos"
+        android:textSize="28dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/card_view"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardElevation="4dp"
+        android:background="@android:color/white"
+        card_view:cardBackgroundColor="@android:color/white"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_margin="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutTipoRegistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_tipo_registro"
+                        android:layout_marginTop="24dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayoutTipoRegistro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black">
+
+                        <EditText
+                            android:id="@+id/editTextTipoRegistro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="10dp"
+                            android:hint="-Seleccione el tipo de registro-"
+                            android:inputType="number"
+                            android:imeOptions="actionDone"
+                            android:backgroundTint="@android:color/black"
+                            android:foregroundTint="@android:color/black"
+                            android:layout_marginLeft="16dp"
+                            android:enabled="true"
+                            android:focusable="false"
+                            android:drawableRight="@drawable/ic_chevron_down"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutDivision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_division"
+                        android:layout_marginTop="24dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayoutArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black">
+
+                        <EditText
+                            android:id="@+id/editTextDivision"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="10dp"
+                            android:hint="-Seleccione la división-"
+                            android:inputType="number"
+                            android:imeOptions="actionDone"
+                            android:backgroundTint="@android:color/black"
+                            android:foregroundTint="@android:color/black"
+                            android:layout_marginLeft="16dp"
+                            android:enabled="true"
+                            android:focusable="false"
+                            android:drawableRight="@drawable/ic_chevron_down"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutCodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_codigo"
+                        android:layout_marginTop="24dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayoutCodigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/black"
+                        android:foregroundTint="@android:color/black">
+
+                        <EditText
+                            android:id="@+id/editTextUserName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="10dp"
+                            android:hint="Código"
+                            android:inputType="number"
+                            android:imeOptions="actionDone"
+                            android:backgroundTint="@android:color/black"
+                            android:foregroundTint="@android:color/black"
+                            android:layout_marginLeft="16dp"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonVerificar"
+                    android:textColor="#fff"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:background="@drawable/btn_rounded"
+                    android:layout_marginTop="16dp"
+                    android:text="Validar código"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp" />
+
+                <Button
+                    android:id="@+id/buttonInvitado"
+                    android:textColor="#fff"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:background="@drawable/btn_rounded"
+                    android:layout_marginTop="8dp"
+                    android:text="Ingresar como invitado"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp" />
+
+                <Button
+                    android:id="@+id/buttonIngresoOffline"
+                    android:textColor="#fff"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:background="@drawable/btn_rounded"
+                    android:layout_marginTop="8dp"
+                    android:text="Ingresar"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/card_view"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/buttonRegistrar"
+            android:textColor="@android:color/black"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/btn_rounded_white"
+            android:layout_marginTop="8dp"
+            android:text="Regístrate"
+            android:layout_width="140dp"
+            android:layout_height="44dp"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/buttonOffline"
+            android:textColor="@android:color/black"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/btn_rounded_white"
+            android:layout_marginTop="8dp"
+            android:text="Modo Offline"
+            android:layout_width="140dp"
+            android:layout_height="44dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

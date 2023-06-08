@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Proyectos\Genesys-Inn\BepensaCheckAndroid\Software\Publicaciones\WS_BEPENSA</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/BepensaService.dll">
+      <publishTime>12/08/2020 19:34:50</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/EPPlusFree.dll">
+      <publishTime>05/22/2020 10:46:30</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.dll">
+      <publishTime>02/04/2018 01:44:46</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.EntityFramework.dll">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Almacenes.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Almacenes_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Bepensa.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Distribucion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Distribucion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Manufactura.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Manufactura_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Staff.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Staff_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Talleres.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/Talleres_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/VentasAgua.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/VentasAgua_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/VentasRefresco.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/ActoInseguro/VentasRefresco_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Almacen.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Almacen_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Oficinas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Oficinas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Patios.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Patios_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Produccion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Produccion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Taller.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Taller_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Vehiculos.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Ambiental/Vehiculos_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Bepensa.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Almacen.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Almacen_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Oficinas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Oficinas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Patios.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Patios_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Produccion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Produccion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Taller.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Taller_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Vehiculos.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/AreaObservacion/Condiciones/Vehiculos_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/ActoSeguro.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/ActoSeguro_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/CubreBocas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/CubreBocas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/Distancia.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/Distancia_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/FaltaOrdenLimpieza.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/FaltaOrdenLimpieza_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/MalManejoCargas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/MalManejoCargas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/MalUsoEquipoHerramiento.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/MalUsoEquipoHerramiento_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/MalUsoMontacargas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/MalUsoMontacargas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoRespetarLimitesVelocidad.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoRespetarLimitesVelocidad_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsar3PuntosApoyo.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsar3PuntosApoyo_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsarCinturonSeguridad.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsarCinturonSeguridad_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsarEPP.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsarEPP_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsarPasoPeatonal.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/NoUsarPasoPeatonal_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/OperarEquipoSinGuardas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/OperarEquipoSinGuardas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/Otros.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/Otros_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/UsarEPPIncorrecto.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/UsarEPPIncorrecto_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/UsarEPPMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/UsarEPPMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/UsoCelular.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/ActoInseguro/UsoCelular_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/AireAcondicionadoSinUso.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/AireAcondicionadoSinUso_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/DesperdicioEvidenteAgua.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/DesperdicioEvidenteAgua_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/EquiposElectricosEncendidosSinUso.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/EquiposElectricosEncendidosSinUso_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/FugaAgua.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/FugaAgua_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/FugasGas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/FugasGas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/LucesEncendidasDuranteDia.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/LucesEncendidasDuranteDia_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/LucesEncendidasEspaciosVacios.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/LucesEncendidasEspaciosVacios_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/Mas23Grados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/Mas23Grados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/Otros.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/Otros_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/ProyectorEncendidoSinUso.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/ProyectorEncendidoSinUso_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/ResiduosMalClasificados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/ResiduosMalClasificados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/ResiduosSinSeparacion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Ambiental/ResiduosSinSeparacion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/AccesoLibreAlturas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/AccesoLibreAlturas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/EspaciosConfinados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/EspaciosConfinados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/EstibasProductos.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/EstibasProductos_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/FallaMecanica.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/FallaMecanica_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/FugasDerrames.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/FugasDerrames_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/HerramientasMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/HerramientasMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/MaquinariaSinProteccion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/MaquinariaSinProteccion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/MotacargasMalasCondiciones.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/MotacargasMalasCondiciones_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/Otros.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/Otros_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/PasosPeatonalesBloqueados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/PasosPeatonalesBloqueados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/PisosRejillasEnMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/PisosRejillasEnMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/QuimicosSinIdentificacion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/QuimicosSinIdentificacion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/TablerosConeccionesEnMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/Factores/Condiciones/TablerosConeccionesEnMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="bin/Upload/RegistroToc.xlsx">
+      <publishTime>10/22/2020 18:14:06</publishTime>
+    </File>
+    <File Include="bin/Upload/RegistroToc2.xlsx">
+      <publishTime>10/22/2020 18:14:06</publishTime>
+    </File>
+    <File Include="bin/Upload/RelTocIndustrial.xlsx">
+      <publishTime>11/24/2020 21:28:10</publishTime>
+    </File>
+    <File Include="bin/Upload/UsuariosIndustrial.xlsx">
+      <publishTime>11/24/2020 21:53:05</publishTime>
+    </File>
+    <File Include="bin/Upload/UsuariosMotriz.xlsx">
+      <publishTime>11/09/2020 21:38:00</publishTime>
+    </File>
+    <File Include="MySql.Data.dll">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="MySql.Data.EntityFramework.dll">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/08/2020 18:22:28</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>09/15/2020 14:23:46</publishTime>
+    </File>
+    <File Include="Service/BepensaService.asmx">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/ActoSeguro.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/FaltaOrdenLimpieza.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/MalManejoCargas.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/MalUsoEquipoHerramiento.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/MalUsoMontacargas.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/NoRespetarLimitesVelocidad.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/NoUsar3PuntosApoyo.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/NoUsarCinturonSeguridad.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/NoUsarEPP.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/NoUsarPasoPeatonal.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/OperarEquipoSinGuardas.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/Otros.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/UsarEPPIncorrecto.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/UsarEPPMalEstado.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/ActoInseguro/UsoCelular.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Almacenes.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Almacenes_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Bepensa.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Distribucion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Distribucion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Manufactura.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Manufactura_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Staff.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Staff_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Talleres.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/Talleres_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/VentasAgua.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/VentasAgua_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/VentasRefresco.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/ActoInseguro/VentasRefresco_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Almacenes.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Almacen.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Almacen_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Oficinas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Oficinas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Patios.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Patios_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Produccion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Produccion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Taller.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Taller_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Vehiculos.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Ambiental/Vehiculos_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Bepensa.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Almacen.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Almacen_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Oficinas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Oficinas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Patios.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Patios_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Produccion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Produccion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Taller.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Taller_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Vehiculos.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Condiciones/Vehiculos_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Distribucion.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Manufactura.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Staff.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/Talleres.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/VentasAgua.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/AreaObservacion/VentasRefresco.png">
+      <publishTime>05/02/2020 20:19:02</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/ActoSeguro.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/ActoSeguro_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/CubreBocas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/CubreBocas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/Distancia.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/Distancia_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/FaltaOrdenLimpieza.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/FaltaOrdenLimpieza_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/MalManejoCargas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/MalManejoCargas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/MalUsoEquipoHerramiento.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/MalUsoEquipoHerramiento_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/MalUsoMontacargas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/MalUsoMontacargas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoRespetarLimitesVelocidad.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoRespetarLimitesVelocidad_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsar3PuntosApoyo.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsar3PuntosApoyo_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsarCinturonSeguridad.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsarCinturonSeguridad_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsarEPP.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsarEPP_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsarPasoPeatonal.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/NoUsarPasoPeatonal_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/OperarEquipoSinGuardas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/OperarEquipoSinGuardas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/Otros.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/Otros_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/UsarEPPIncorrecto.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/UsarEPPIncorrecto_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/UsarEPPMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/UsarEPPMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/UsoCelular.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/ActoInseguro/UsoCelular_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/AireAcondicionadoSinUso.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/AireAcondicionadoSinUso_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/DesperdicioEvidenteAgua.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/DesperdicioEvidenteAgua_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/EquiposElectricosEncendidosSinUso.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/EquiposElectricosEncendidosSinUso_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/FugaAgua.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/FugaAgua_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/FugasGas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/FugasGas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/LucesEncendidasDuranteDia.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/LucesEncendidasDuranteDia_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/LucesEncendidasEspaciosVacios.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/LucesEncendidasEspaciosVacios_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/Mas23Grados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/Mas23Grados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/Otros.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/Otros_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/ProyectorEncendidoSinUso.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/ProyectorEncendidoSinUso_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/ResiduosMalClasificados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/ResiduosMalClasificados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/ResiduosSinSeparacion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Ambiental/ResiduosSinSeparacion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/AccesoLibreAlturas.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/AccesoLibreAlturas_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/EspaciosConfinados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/EspaciosConfinados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/EstibasProductos.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/EstibasProductos_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/FallaMecanica.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/FallaMecanica_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/FugasDerrames.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/FugasDerrames_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/HerramientasMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/HerramientasMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/MaquinariaSinProteccion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/MaquinariaSinProteccion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/MotacargasMalasCondiciones.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/MotacargasMalasCondiciones_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/Otros.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/Otros_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/PasosPeatonalesBloqueados.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/PasosPeatonalesBloqueados_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/PisosRejillasEnMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/PisosRejillasEnMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/QuimicosSinIdentificacion.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/QuimicosSinIdentificacion_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/TablerosConeccionesEnMalEstado.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/Factores/Condiciones/TablerosConeccionesEnMalEstado_v2.png">
+      <publishTime>09/15/2020 14:23:45</publishTime>
+    </File>
+    <File Include="Upload/RegistroToc.xlsx">
+      <publishTime>12/07/2020 18:48:36</publishTime>
+    </File>
+    <File Include="Upload/RegistroToc2.xlsx">
+      <publishTime>10/22/2020 18:14:06</publishTime>
+    </File>
+    <File Include="Upload/RelTocIndustrial.xlsx">
+      <publishTime>11/24/2020 21:28:10</publishTime>
+    </File>
+    <File Include="Upload/UsuariosIndustrial.xlsx">
+      <publishTime>11/24/2020 21:53:05</publishTime>
+    </File>
+    <File Include="Upload/UsuariosMotriz.xlsx">
+      <publishTime>11/09/2020 21:38:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/08/2020 19:34:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
